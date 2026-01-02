@@ -13,15 +13,6 @@ df_irt.csv
 IRT Model.R
 --this code performs EDA on SAT test scores and retention rate
 
-
-
-recommendation.ipynb
+Item Response Theory Modeling with ASSISTments Math Dataset.pdf
 --this file contains the function that takes student info as input and outputs recommendations
 
-recommendation.py
---this is the .py version of recommendation.ipynb
-
-scaler.joblib
---this is the saved scaler used when scaling the institutional profiles.  It is also used when scaling student profiles before feeding into the matching algorithm
-
-graduation_retention_EDA.ipynb
