@@ -4,7 +4,7 @@ DESCRIPTION: This project applies Item Response Theory (IRT) to a subset of the 
 
 DESCRIPTION OF FILES:
 
-Content-based Filtering.ipynb 
+Data Preparation.ipynb 
 --this code merges multiple datasets to build the dataset used for the content-based filtering algorithm.  Also, the algorithm is developed for recommending institutions.
 
 Fall Retention Test Score EDA.ipynb
