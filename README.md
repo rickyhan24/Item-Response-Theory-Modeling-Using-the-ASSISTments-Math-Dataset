@@ -7,7 +7,7 @@ DESCRIPTION OF FILES:
 Data Preparation.ipynb 
 --this code merges multiple datasets to build the dataset used for the content-based filtering algorithm.  Also, the algorithm is developed for recommending institutions.
 
-Fall Retention Test Score EDA.ipynb
+IRT Model.R
 --this code performs EDA on SAT test scores and retention rate
 
 cleaned_df_in_state.csv
