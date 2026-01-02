@@ -7,11 +7,13 @@ DESCRIPTION OF FILES:
 Data Preparation.ipynb 
 --this code merges multiple datasets to build the dataset used for the content-based filtering algorithm.  Also, the algorithm is developed for recommending institutions.
 
+df_irt.csv
+--this is the data used by the content-based filtering algorithm to match students to institutions
+
 IRT Model.R
 --this code performs EDA on SAT test scores and retention rate
 
-cleaned_df_in_state.csv
---this is the data used by the content-based filtering algorithm to match students to institutions
+
 
 recommendation.ipynb
 --this file contains the function that takes student info as input and outputs recommendations
