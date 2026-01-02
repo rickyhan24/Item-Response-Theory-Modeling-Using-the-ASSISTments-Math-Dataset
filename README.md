@@ -5,14 +5,13 @@ DESCRIPTION: This project applies Item Response Theory (IRT) to a subset of the 
 DESCRIPTION OF FILES:
 
 Data Preparation.ipynb 
---this code merges multiple datasets to build the dataset used for the content-based filtering algorithm.  Also, the algorithm is developed for recommending institutions.
+--this code prepares the ASSISTments Skill Builder 2009-2010 dataset by filtering to only one skill.  The resulting dataset is df_irt.csv.
 
 df_irt.csv
---this is the data used by the content-based filtering algorithm to match students to institutions
+--this is the data used by the IRT models in R.
 
 IRT Model.R
---this code performs EDA on SAT test scores and retention rate
+--this code performs IRT modeling on the student response data in df_irt.csv.
 
 Item Response Theory Modeling with ASSISTments Math Dataset.pdf
---this file contains the function that takes student info as input and outputs recommendations
-
+--this is the pdf report covering the details of this project.
